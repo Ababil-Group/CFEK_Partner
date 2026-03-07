@@ -38,12 +38,12 @@ const Footer = () => {
             {t("footer.footerContact")}
           </h3>
 
-          {/* <p className="flex items-center gap-2">
+          <p className="flex items-center gap-2">
             📧{" "}
-            <a href="mailto:help@karyeraplus.top" className="hover:underline">
-              help@karyeraplus.top
+            <a href="mailto:contact@cfekpartner.eu" className="hover:underline">
+              contact@cfekpartner.eu
             </a>
-          </p> */}
+          </p>
           {/* Social icons */}
           <div className="flex space-x-3 mt-6">
             <a
