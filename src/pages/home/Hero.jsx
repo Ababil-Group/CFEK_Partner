@@ -1,11 +1,11 @@
 import { FaPlayCircle } from "react-icons/fa";
 import { IoArrowDownCircleOutline } from "react-icons/io5";
-import { motion, AnimatePresence } from "framer-motion";
-import { useState } from "react";
+// import { motion, AnimatePresence } from "framer-motion";
+// import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 const Hero = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
   const { t } = useTranslation();
   return (
     <>
@@ -44,7 +44,8 @@ const Hero = () => {
             <div className="col-span-1 flex justify-center">
               <button
                 className="cursor-pointer"
-                onClick={() => setIsOpen(true)}>
+                // onClick={() => setIsOpen(true)}
+              >
                 <FaPlayCircle className="text-6xl  text-primary" />
               </button>
             </div>
@@ -52,7 +53,7 @@ const Hero = () => {
         </div>
       </section>
 
-      <AnimatePresence>
+      {/* <AnimatePresence>
         {isOpen && (
           <motion.div
             className="fixed  inset-0 bg-black/70 flex items-center justify-center z-50"
@@ -83,7 +84,7 @@ const Hero = () => {
             </motion.div>
           </motion.div>
         )}
-      </AnimatePresence>
+      </AnimatePresence> */}
     </>
   );
 };

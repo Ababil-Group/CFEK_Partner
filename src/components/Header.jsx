@@ -58,10 +58,10 @@ const Header = () => {
         <a href="/" className="flex items-center gap-2">
           <img
             src="/logo.png"
-            alt="Logo"
+            alt="CFEK Partner"
             width={120}
             height={100}
-            className="w-20 h-auto"
+            className="w-12 h-auto"
           />
         </a>
 

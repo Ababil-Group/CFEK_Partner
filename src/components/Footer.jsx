@@ -24,11 +24,11 @@ const Footer = () => {
 
           <div className="mt-6">
             <img
-              src="/logo.png"
-              alt="Karyera Plus"
+              src="/Logo-white.png"
+              alt="CFEK Partner"
               width={150}
               height={200}
-              className="h-auto w-40"
+              className="h-auto w-24"
             />
           </div>
         </div>
@@ -38,32 +38,32 @@ const Footer = () => {
             {t("footer.footerContact")}
           </h3>
 
-          <p className="flex items-center gap-2">
+          {/* <p className="flex items-center gap-2">
             📧{" "}
             <a href="mailto:help@karyeraplus.top" className="hover:underline">
               help@karyeraplus.top
             </a>
-          </p>
+          </p> */}
           {/* Social icons */}
           <div className="flex space-x-3 mt-6">
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.facebook.com/KayeraPlus"
+              // href="https://www.facebook.com/KayeraPlus"
               className="p-2 border border-white hover:bg-white hover:text-black transition rounded">
               <FaFacebookF />
             </a>
-            <a
+            {/* <a
               rel="noopener noreferrer"
               target="_blank"
               href="https://www.instagram.com/karyeraplus01/"
               className="p-2 border border-white hover:bg-white hover:text-black transition rounded">
               <FaInstagram />
-            </a>
+            </a> */}
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.youtube.com/@KaryeraPlus01"
+              // href="https://www.youtube.com/@KaryeraPlus01"
               className="p-2 border border-white hover:bg-white hover:text-black transition rounded">
               <FaYoutube />
             </a>
@@ -74,7 +74,7 @@ const Footer = () => {
               className="p-2 border border-white hover:bg-white hover:text-black transition rounded">
               <FaTiktok />
             </a> */}
-            <a
+            {/* <a
               rel="noopener noreferrer"
               target="_blank"
               href="https://x.com/KaryeraPlus01"
@@ -94,7 +94,7 @@ const Footer = () => {
               href="https://www.pinterest.com/karyeraplusb2b/"
               className="p-2 border border-white hover:bg-white hover:text-black transition rounded">
               <FaPinterest />
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -144,7 +144,7 @@ const Footer = () => {
       </div>
 
       <div className="border-t border-gray-600 mt-10 pt-6 text-sm  text-gray-400 text-center md:text-left container max-w-7xl mx-auto px-6 ">
-        <p className="text-sm text-center">Copyright © 2025 Karyera Plus</p>
+        <p className="text-sm text-center">Copyright © 2026 CFEK Partner</p>
       </div>
     </footer>
   );
