@@ -132,11 +132,11 @@ const Footer = () => {
             </h4>
             <p className="flex items-center gap-2">
               <a
-                href="https://www.google.com/maps/place/%D8%A8%D8%B1%D8%AC+%D8%AE%D9%84%D9%8A%D9%81%D8%A9+%D8%A7%D9%84%D8%B9%D9%86%D8%B2%D9%8A%D8%8C+21+Ahmad+Al+Jaber+St,+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+13017,+Kuwait%E2%80%AD/@29.3826247,47.984253,17z/data=!3m1!4b1!4m6!3m5!1s0x3fcf8491926f25e3:0x5187dd048c32c8e8!8m2!3d29.3826201!4d47.9868279!16s%2Fg%2F11nnkw8l1z?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
+                href="https://www.google.com/maps/place/112-116+Whitechapel+Rd,+Greater,+London+E1+1JE,+UK/@51.5179069,-0.0666426,17z/data=!3m1!4b1!4m6!3m5!1s0x48761ccc7c9cb58b:0x837ef31a0b99463!8m2!3d51.5179036!4d-0.0640677!16s%2Fg%2F11y7qkpf90?entry=ttu&g_ep=EgoyMDI2MDMwNC4xIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[16px] hover:text-primary">
-                21 Ahmad Al Jaber St, Kuwait City, Kuwait
+                112-116 Whitechapel Road, London, England, E11JE
               </a>
             </p>
           </div>

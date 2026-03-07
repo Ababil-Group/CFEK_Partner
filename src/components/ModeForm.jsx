@@ -28,7 +28,7 @@ const ModeForm = ({ isOpen, setIsOpen }) => {
 
         {/* FORM */}
         <form
-          action="https://formsubmit.co/28337a231d88954724597d15c65585cc"
+          action="https://formsubmit.co/949308c06170a342a8c0cbc5c7e8a542"
           method="POST"
           className="space-y-4">
           <input
@@ -84,9 +84,9 @@ const ModeForm = ({ isOpen, setIsOpen }) => {
           <input
             type="hidden"
             name="_subject"
-            value="New Contact Request - KaryeraPlus"
+            value="New Contact Request - CFEK Partner"
           />
-          <input type="hidden" name="_next" value="https://karyeraplus.top" />
+          <input type="hidden" name="_next" value="http://cfekpartner.eu" />
 
           {/* Submit */}
           <button
