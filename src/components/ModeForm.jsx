@@ -28,7 +28,7 @@ const ModeForm = ({ isOpen, setIsOpen }) => {
 
         {/* FORM */}
         <form
-          action="https://formsubmit.co/949308c06170a342a8c0cbc5c7e8a542"
+          action="https://formsubmit.co/contact@cfekpartner"
           method="POST"
           className="space-y-4">
           <input
